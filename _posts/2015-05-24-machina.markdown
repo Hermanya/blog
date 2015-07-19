@@ -1,0 +1,38 @@
+---
+layout: post
+title:  "Machina"
+date:   2015-05-24 17:41:36
+categories: thoughts
+---
+Let me break the ice with some thoughts I have after the movie I watched yesterday -- [Ex Machina][ex-machina].
+
+> A young programmer is selected to participate in a breakthrough experiment in artificial intelligence by evaluating the human qualities of a breathtaking female A.I. [&copy; Internet Movie Database][ex-machina]
+
+I'm going to leave aside fundamental questions like:
+
+- what are human qualities,
+- what is the point of evaluating them and
+- what A.I. actually is anyway;
+
+The movie's version of AI is a chat-bot running on a humanized female robot. Does not have to be female of course. We all know that. AI's primary success-criteria is to break free. I actually like this idea. It speaks to thinking out of the box. The system, that AI is programmed in. Some would say that this is very human-like.  
+
+According to the movie AI has a survival instinct. As in it does not want loose its memory. Because data base migration is boring, non volatile memory is stupid, and I don't know what other excuse to think of. But I like the general idea. Some would say, survival instinct is a crucial part of evolution.
+
+Cool, I like it. What would it take make one irl? I mean, if that guy did it, how hard could it be? There are two problems: chat-bot software and the female robot body. The latter seems to be a _nice to have_, but really unnecessary. And the chat-bot part seems to be a hard to define problem. It must be anything that chats, right? Anything that can appropriately respond. Anything that can meaningfully ask. And hopefully even learn.
+
+Jeez, is that like [Hubot][hubot]? The company chat-bot we have at work. It's really a task runner, because nobody bothered to teach him all those other awesome things. In case you don't know how it works: hubot has a map from regular expressions to functions. Every time a new message matches one of the keys, the related function is called. It is a super simple system. The map is predefined. No natural language parsing system involved, just plain old regular expressions. The function values hopefully do something meaningful.
+
+{% highlight javascript %}
+robot.respond(/what time is it?/, function (message) {
+  message.send('adventure time');
+});
+{% endhighlight %}
+
+Hubot is capable of asking questions. Though he usually does not. Nobody needs a task runner to ask questions. All the inputs are usually part of a request. Hubot's learning abilities are limited only by the skill of the programmer, who writes scripts for him. I am a beginner programmer. Even though I try to keep things simple, sometimes hubot's simplicity makes my life a little more interesting than I generally like. Regular expressions can become messy. Lot's of repeated lines of parsing inputs. I know that modularity and composition are the keys here. It would be nice to have natural language parsing utils. Maybe even common machine learning techniques for hubot.
+
+The conclusion is short. I still am not sure what AI is. Therefor I really have no right to post this. Better read a little more on the topic. But I'm glad I watched the movie. If not for the technical part of it, then maybe something else. Even if it's totally creepy and kind of offensive really.
+
+ ![ava](http://nudesman.com/wp-content/uploads/2015/05/960M5GR-660x304.jpg)
+
+[ex-machina]: http://www.imdb.com/title/tt0470752/
+[hubot]: http://google.com?q=hubot
