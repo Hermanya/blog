@@ -30,7 +30,7 @@ robot.respond(/what time is it?/, function (message) {
 
 Hubot is capable of asking questions. Though he usually does not. Nobody needs a task runner to ask questions. All the inputs are usually part of a request. Hubot's learning abilities are limited only by the skill of the programmer, who writes scripts for him. I am a beginner programmer. Even though I try to keep things simple, sometimes hubot's simplicity makes my life a little more interesting than I generally like. Regular expressions can become messy. Lot's of repeated lines of parsing inputs. I know that modularity and composition are the keys here. It would be nice to have natural language parsing utils. Maybe even common machine learning techniques for hubot.
 
-The conclusion is short. I still am not sure what AI is. Therefor I really have no right to post this. Better read a little more on the topic. But I'm glad I watched the movie. If not for the technical part of it, then maybe something else. Even if it's totally creepy and kind of offensive really.
+The conclusion is short. I still am not sure what AI is. Therefore I really have no right to post this. Better read a little more on the topic. But I'm glad I watched the movie. If not for the technical part of it, then maybe something else. Even if it's totally creepy and kind of offensive really.
 
  ![ava](http://nudesman.com/wp-content/uploads/2015/05/960M5GR-660x304.jpg)
 
