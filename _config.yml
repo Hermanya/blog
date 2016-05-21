@@ -3,7 +3,6 @@ title: Better Talk to Herman
 email: hermanstarikov@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   All Herman's thoughts are so interesting, it would be a crime not to share them.
-  Or [Oleg's blog](http://olegberman.com/).
 #baseurl: "/blog/" # the subpath of your site, e.g. /blog/
 url: "http://hermanya.github.io" # the base hostname & protocol for your site
 twitter_username: HermanHasAWish
